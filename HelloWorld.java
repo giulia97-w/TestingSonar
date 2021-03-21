@@ -4,8 +4,8 @@ import java.util.logging.Level;
 public class HelloWorld {
 	 public static void main(String[] args) {
 	    
-		 Logger logger = Logger.getLogger(HelloWorld.class.getName());
-		 logger.log(Level.INFO, "HELLO WORLD!");
+		 Logger LOGGER = Logger.getLogger(HelloWorld.class.getName());
+		 LOGGER.log(Level.INFO, "HELLO WORLD!");
 
 	}
 
